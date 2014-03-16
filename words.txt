@@ -1,0 +1,10 @@
+Write a program that counts the frequencies of each word in a text, and
+output each word with its count and line numbers where it appears. We
+define a word as a contiguous sequence of non-white-space characters.
+Different capitalizations of the same character sequence should be
+considered same word (e.g. Python and python). The output is formatted as
+follows: each line begins with a number indicating the frequency of the word,
+a white space, then the word itself, and a list of line numbers containing this
+word. You should output from the most frequent word to the least frequent.
+In case two words have the same frequency, the lexicographically smaller
+one comes first. All words are in lower case in the output.
